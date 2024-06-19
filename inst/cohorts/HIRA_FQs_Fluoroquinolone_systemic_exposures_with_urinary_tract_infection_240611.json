@@ -1,0 +1,3334 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient or Inpatient/ER visit",
+      "id": 1
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 81902,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "68566005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Urinary tract infectious disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "[SOS] Urinary tract infection",
+      "id": 2
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1721543,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7517",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "norfloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35198003,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819368",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "pazufloxacin mesilate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1747032,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83719",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "grepafloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19041153,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "37771",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "temafloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592954,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1927663",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "delafloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1716721,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "138099",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gemifloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 923081,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7623",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ofloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19050750,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42322",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fleroxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1712549,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "115552",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "trovafloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35197938,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819303",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "garenoxacin mesilate hydrate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36878831,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP1007304",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "nadifloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40161662,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "819911",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "besifloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009030,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700456",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "tosufloxacin tosylate hydrate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1743222,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3925",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "enoxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35834909,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5040502",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lascufloxacin hydrochloride",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35198165,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819530",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "sitafloxacin hydrate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1789276,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "228476",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gatifloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1797513,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2551",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1742253,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "82122",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "levofloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1716903,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "139462",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "moxifloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35197897,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819262",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "prulifloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19027679,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7960",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pefloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1733765,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "18469",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "sparfloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1707800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "28872",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lomefloxacin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42613186,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5160363",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "besifloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2909524,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5126291",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "besifloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40161667,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "850304",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "besifloxacin Ophthalmic Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40028718,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "376483",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin Ophthalmic Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40028720,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "376202",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35860696,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5017123",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "enoxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35858962,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5015272",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "gatifloxacin Ophthalmic Gel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40059607,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "402433",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "gatifloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35861002,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5017598",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "levofloxacin Ophthalmic Gel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40001157,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "376884",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "levofloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40059318,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "372629",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lomefloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40057467,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "406106",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "moxifloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40066892,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "376519",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "norfloxacin Ophthalmic Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40066893,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "377401",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "norfloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43695029,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP672324",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ofloxacin Ophthalmic Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40069651,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "377402",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ofloxacin Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35851732,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5008335",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "pazufloxacin mesilate Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42961482,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4687978",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "tosufloxacin tosylate hydrate Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42479725,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP419326",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ciprofloxacin / Dexamethasone Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40028359,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "405942",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin / dexamethasone Otic Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42629035,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1792384",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin / fluocinolone Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43258666,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP572540",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ciprofloxacin / Hydrocortisone Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40028361,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "374589",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin / hydrocortisone Otic Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40160496,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "848955",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35605255,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1739996",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ciprofloxacin Otic Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35860990,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5017586",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "levofloxacin Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35144130,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4801876",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lomefloxacin Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40069655,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "377450",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ofloxacin Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42965658,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4692126",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ciprofloxacin / fluocinolone Topical Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36269500,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP3120375",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ciprofloxacin Mucous Membrane Topical Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35857832,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5014782",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ciprofloxacin Topical Gel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35857838,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5014788",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ciprofloxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35860698,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5017125",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "enoxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35862078,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5018791",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lomefloxacin Topical Gel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35862084,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5018797",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lomefloxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2052955,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4953477",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "lomefloxacin Topical Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43678347,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP692663",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "nadifloxacin Topical Cream",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35154779,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4811800",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "nadifloxacin Topical Lotion",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35141912,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4799033",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "nadifloxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35861725,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5018416",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "norfloxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35851383,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5007927",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ofloxacin Topical Gel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35851392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5007936",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ofloxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35856292,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP5012825",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "pefloxacin Topical Ointment",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534863,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "besifloxacin; ophthalmic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534858,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ciprofloxacin; ophthalmic (fluoroquinolones)",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21605161,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S02AA15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ciprofloxacin; otic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603009,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ciprofloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603011,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "enoxacin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603015,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fleroxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534861,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gatifloxacin; ophthalmic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603023,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA16",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gatifloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603022,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "gemifloxacin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534860,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "levofloxacin; ophthalmic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603019,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "levofloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603014,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "lomefloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534862,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "moxifloxacin; ophthalmic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603021,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA14",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "moxifloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534857,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "norfloxacin; ophthalmic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603013,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "norfloxacin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534856,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S01AE01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ofloxacin; ophthalmic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21605162,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "S02AA16",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ofloxacin; otic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603008,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ofloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603010,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "pefloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603016,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "sparfloxacin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715910,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01MA22",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "tosufloxacin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HIRA_FQs] fluoroquinolone systemic(RxNorm, ATC)_240611",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40798709,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP2721059",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefacetrile",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1796435,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25033",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefixime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40798704,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP2721061",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19072255,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2182",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefmetazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008993,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700419",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefminox sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028286,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20485",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefodizime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19072857,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2183",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefonicid",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1773402,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2184",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefoperazone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028288,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20486",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceforanide",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1774470,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2186",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefotaxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1774932,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2187",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefotetan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19051271,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2188",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefotiam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1775741,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2189",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefoxitin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009045,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700471",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefpiramide sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1749008,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20489",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefpodoxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1738366,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19552",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefprozil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009083,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700509",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefroxadine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19051345,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2190",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefsulodin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1776684,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2191",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftazidime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35198137,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4819502",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefteram pivoxil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43008994,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700420",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ceftezole sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1749083,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20492",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftibuten",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1777254,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2192",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftizoxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1777806,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2193",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ceftriaxone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1778162,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2194",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefuroxime",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1786621,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2231",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephalexin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19052683,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2233",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephaloridine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19086759,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2236",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephalothin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19086790,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2238",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephapirin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1786842,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2239",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cephradine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009087,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700513",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "flomoxef sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1708100,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "28981",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "loracarbef",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19126622,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7069",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "moxalactam",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1768849,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2176",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefaclor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1769535,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2177",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefadroxil",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19070174,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2178",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefamandole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19070680,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2179",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefatrizine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40798700,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP2721060",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefazedone",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1771162,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2180",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefazolin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700508",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefbuperazone sodium",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009044,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700470",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "cefcapene pivoxil hydrochloride hydrate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1796458,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "25037",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefdinir",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1747005,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83682",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefditoren",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19028241,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20482",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefetamet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35129269,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4786537",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35160132,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4817111",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime Otic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2035392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4934549",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Cefmenoxime Topical Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21132307,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP388743",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Ceftazidime Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40020954,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "377415",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cefuroxime Ophthalmic Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug Form",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602886,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefaclor; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602874,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefadroxil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602870,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefalexin; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602872,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefalotin; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602885,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefamandole; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602877,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefapirin; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602876,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefatrizine; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602875,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefazedone; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602873,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefazolin; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40255561,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefbuperazone; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602911,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD17",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefcapene; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602909,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD15",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefdinir; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602910,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD16",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefditoren; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602904,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefetamet; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602902,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefixime; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602899,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefmenoxime; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602891,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefmetazole; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40255560,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefminox; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602903,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefodizime; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602888,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC06",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefonicid; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602913,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD62",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefoperazone and beta-lactamase inhibitor; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602906,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefoperazone; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602895,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefotaxime; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602887,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefotetan; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602889,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefotiam; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602883,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefoxitin; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602905,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefpiramide; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602907,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD13",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefpodoxime; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602892,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC10",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefprozil; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602878,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB09",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefradine; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602880,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefroxadine; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602897,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefsulodin; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602896,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ceftazidime; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715906,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD18",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefteram; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602881,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DB12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ceftezole; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602908,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD14",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ceftibuten; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602901,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ceftizoxime; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602898,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DD04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ceftriaxone; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602884,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cefuroxime; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40255562,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC14",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "flomoxef; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21602890,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "J01DC08",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "loracarbef; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[HIRA_FQs] cephalosporin systematic(RxNorm, ATC)_240611",
+      "id": 4
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 3,
+    "DaysSupplyOverride": null,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugEra": {
+    "EraStartDate": null,
+    "CorrelatedCriteria": null,
+    "OccurrenceCount": null,
+    "AgeAtStart": null,
+    "GapDays": null,
+    "CodesetId": 4,
+    "AgeAtEnd": null,
+    "First": null,
+    "Gender": null,
+    "EraLength": null,
+    "EraEndDate": null
+  }}],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 2,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "has urinary tract infection on or in 7 day prior to exposure",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 7,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"VisitOccurrence": {
+            "OccurrenceEndDate": null,
+            "VisitLength": null,
+            "CorrelatedCriteria": null,
+            "VisitSourceConcept": null,
+            "CodesetId": 1,
+            "VisitTypeExclude": false,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "PlaceOfServiceLocation": null,
+            "PlaceOfService": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "no hospitalization on or in 7 day prior to exposure",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 90,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 4,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 0,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "has no Cephalosporin in 90 days prior to exposure",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 3,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}
